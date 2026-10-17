@@ -1,5 +1,5 @@
 """
-NordPack Manufacturing s.r.o. – generátor syntetických nákupních dat.
+My Brick Company (MBC) – generátor syntetických nákupních dat.
 
 Spuštění (z kořene projektu):
     python generator/generate_data.py

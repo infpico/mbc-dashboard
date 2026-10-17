@@ -1,7 +1,7 @@
-# NordPack Procurement Analytics
+# MBC Procurement Analytics
 
-Portfolio project: procurement & supply chain analytics for a **fictional** packaging plant
-(NordPack Manufacturing s.r.o.). All data is **synthetic** – no real company data.
+Portfolio project: procurement & supply chain analytics for the packaging plant of a **fictional** manufacturer
+(My Brick Company, MBC). All data is **synthetic** – no real company data.
 
 **Work in progress** – the Power BI dashboard is being built; full README with screenshots coming soon.
 
@@ -9,7 +9,7 @@ Portfolio project: procurement & supply chain analytics for a **fictional** pack
 | Folder | Content |
 |---|---|
 | `generator/` | Python generator of a reproducible SAP-style dataset (fixed seed) + SQL pattern checks |
-| `data/` | Generated tables as CSV (for Power BI) and SQLite (`nordpack.db`) |
+| `data/` | Generated tables as CSV (for Power BI) and SQLite (`mbc.db`) |
 | `docs/` | Data dictionary – tables, columns and their SAP equivalents, known data quality issues |
 
 ## Data model (SAP-style)

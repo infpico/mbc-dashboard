@@ -1,5 +1,5 @@
 # =============================================================================
-# NordPack Manufacturing s.r.o. – konfigurace generátoru syntetických dat
+# My Brick Company (MBC) – konfigurace generátoru syntetických dat
 # Všechna data jsou vymyšlená. Změnou čísel zde měníš "příběh" v datech,
 # aniž bys sahal do kódu (generate_data.py).
 # =============================================================================
@@ -8,7 +8,8 @@
 seed: 42
 
 company:
-  name: NordPack Manufacturing s.r.o.
+  name: My Brick Company
+  short_name: MBC
   plant: CZ01            # kód závodu (SAP: WERKS)
   local_currency: CZK
 
@@ -140,4 +141,4 @@ data_quality:
 
 output:
   csv_dir: data/csv
-  sqlite_path: data/nordpack.db
+  sqlite_path: data/mbc.db

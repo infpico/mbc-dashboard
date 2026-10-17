@@ -1,5 +1,5 @@
 """
-Kontrola, že "zasazené" vzorce v datech opravdu jsou – čistě přes SQL nad data/nordpack.db.
+Kontrola, že "zasazené" vzorce v datech opravdu jsou – čistě přes SQL nad data/mbc.db.
 
 Spuštění (z kořene projektu):
     python generator/check_patterns.py
@@ -13,7 +13,7 @@ from pathlib import Path
 
 import pandas as pd
 
-DB = Path(__file__).resolve().parents[1] / "data" / "nordpack.db"
+DB = Path(__file__).resolve().parents[1] / "data" / "mbc.db"
 
 CHECKS = {
     # -------------------------------------------------------------------------
