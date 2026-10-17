@@ -1,0 +1,301 @@
+material_id,description,category,spend_type,material_type,uom,lead_time_days,moq
+M100001,Folding carton 200x180x200 mm E-flute,Folding cartons,direct,VERP,KS,16,1000
+M100002,Folding carton 350x90x180 mm B-flute,Folding cartons,direct,VERP,KS,42,500
+M100003,Folding carton 250x260x200 mm GC2 board,Folding cartons,direct,VERP,KS,21,500
+M100004,Folding carton 200x80x50 mm E-flute,Folding cartons,direct,VERP,KS,36,1000
+M100005,Folding carton 370x190x190 mm E-flute,Folding cartons,direct,VERP,KS,25,2000
+M100006,Folding carton 170x140x150 mm GC2 board,Folding cartons,direct,VERP,KS,29,5000
+M100007,Folding carton 200x300x100 mm GD2 board,Folding cartons,direct,VERP,KS,25,2000
+M100008,Folding carton 180x250x80 mm GC2 board,Folding cartons,direct,VERP,KS,37,500
+M100009,Folding carton 230x280x60 mm B-flute,Folding cartons,direct,VERP,KS,33,2000
+M100010,Folding carton 260x120x110 mm GD2 board,Folding cartons,direct,VERP,KS,5,1000
+M100011,Folding carton 190x220x60 mm GC2 board,Folding cartons,direct,VERP,KS,8,2000
+M100012,Folding carton 340x80x70 mm B-flute,Folding cartons,direct,VERP,KS,12,2000
+M100013,Folding carton 150x210x170 mm E-flute,Folding cartons,direct,VERP,KS,17,200
+M100014,Folding carton 280x210x90 mm E-flute,Folding cartons,direct,VERP,KS,11,200
+M100015,Folding carton 120x90x80 mm B-flute,Folding cartons,direct,VERP,KS,32,100
+M100016,Folding carton 260x180x170 mm B-flute,Folding cartons,direct,VERP,KS,44,100
+M100017,Folding carton 180x80x100 mm GD2 board,Folding cartons,direct,VERP,KS,5,2000
+M100018,Folding carton 190x100x150 mm GC2 board,Folding cartons,direct,VERP,KS,9,500
+M100019,Folding carton 390x250x90 mm E-flute,Folding cartons,direct,VERP,KS,30,1000
+M100020,Folding carton 140x200x130 mm B-flute,Folding cartons,direct,VERP,KS,17,10
+M100021,Folding carton 160x290x140 mm B-flute,Folding cartons,direct,VERP,KS,30,200
+M100022,Folding carton 150x110x130 mm E-flute,Folding cartons,direct,VERP,KS,17,1000
+M100023,Folding carton 120x250x180 mm GD2 board,Folding cartons,direct,VERP,KS,14,500
+M100024,Folding carton 100x250x90 mm GC2 board,Folding cartons,direct,VERP,KS,21,2000
+M100025,Folding carton 210x140x40 mm GD2 board,Folding cartons,direct,VERP,KS,43,200
+M100026,Folding carton 370x110x160 mm E-flute,Folding cartons,direct,VERP,KS,20,2000
+M100027,Folding carton 180x150x200 mm GD2 board,Folding cartons,direct,VERP,KS,18,500
+M100028,Folding carton 380x80x60 mm E-flute,Folding cartons,direct,VERP,KS,16,500
+M100029,Folding carton 190x190x190 mm GC2 board,Folding cartons,direct,VERP,KS,36,50000
+M100030,Folding carton 100x240x50 mm GC2 board,Folding cartons,direct,VERP,KS,38,10000
+M100031,Folding carton 120x170x200 mm B-flute,Folding cartons,direct,VERP,KS,10,500
+M100032,Folding carton 260x140x200 mm GD2 board,Folding cartons,direct,VERP,KS,25,500
+M100033,Folding carton 360x100x160 mm E-flute,Folding cartons,direct,VERP,KS,35,100
+M100034,Folding carton 150x290x160 mm GD2 board,Folding cartons,direct,VERP,KS,22,500
+M100035,Folding carton 300x100x80 mm GD2 board,Folding cartons,direct,VERP,KS,15,1000
+M100036,Folding carton 330x210x190 mm GD2 board,Folding cartons,direct,VERP,KS,35,500
+M100037,Folding carton 380x170x50 mm GC2 board,Folding cartons,direct,VERP,KS,44,5000
+M100038,Folding carton 180x130x200 mm GC2 board,Folding cartons,direct,VERP,KS,39,1000
+M100039,Folding carton 240x210x100 mm E-flute,Folding cartons,direct,VERP,KS,12,10000
+M100040,Folding carton 380x290x140 mm E-flute,Folding cartons,direct,VERP,KS,11,2000
+M100041,Folding carton 260x80x160 mm E-flute,Folding cartons,direct,VERP,KS,12,10000
+M100042,Folding carton 250x230x170 mm B-flute,Folding cartons,direct,VERP,KS,38,2000
+M100043,Folding carton 340x270x130 mm E-flute,Folding cartons,direct,VERP,KS,25,2000
+M100044,Folding carton 290x210x200 mm B-flute,Folding cartons,direct,VERP,KS,16,200
+M100045,Folding carton 370x100x50 mm GD2 board,Folding cartons,direct,VERP,KS,9,100
+M100046,Folding carton 350x270x170 mm GD2 board,Folding cartons,direct,VERP,KS,14,1000
+M100047,Folding carton 290x220x140 mm GD2 board,Folding cartons,direct,VERP,KS,35,2000
+M100048,Folding carton 390x270x180 mm B-flute,Folding cartons,direct,VERP,KS,37,500
+M100049,Folding carton 110x110x110 mm B-flute,Folding cartons,direct,VERP,KS,11,500
+M100050,Folding carton 250x160x160 mm B-flute,Folding cartons,direct,VERP,KS,22,100
+M100051,Folding carton 340x290x150 mm GD2 board,Folding cartons,direct,VERP,KS,40,200
+M100052,Folding carton 390x270x120 mm GC2 board,Folding cartons,direct,VERP,KS,13,50
+M100053,Folding carton 120x140x70 mm GC2 board,Folding cartons,direct,VERP,KS,6,500
+M100054,Folding carton 380x110x200 mm GC2 board,Folding cartons,direct,VERP,KS,31,1000
+M100055,Folding carton 260x290x160 mm E-flute,Folding cartons,direct,VERP,KS,44,200
+M100056,Folding carton 230x260x200 mm GD2 board,Folding cartons,direct,VERP,KS,43,50
+M100057,Folding carton 110x100x120 mm GC2 board,Folding cartons,direct,VERP,KS,11,500
+M100058,Folding carton 240x180x150 mm GC2 board,Folding cartons,direct,VERP,KS,34,200
+M100059,Folding carton 170x210x60 mm GD2 board,Folding cartons,direct,VERP,KS,39,20000
+M100060,Folding carton 250x230x160 mm B-flute,Folding cartons,direct,VERP,KS,42,50
+M100061,Folding carton 320x280x170 mm GD2 board,Folding cartons,direct,VERP,KS,31,500
+M100062,Folding carton 190x110x200 mm E-flute,Folding cartons,direct,VERP,KS,8,5000
+M100063,Folding carton 130x240x60 mm GC2 board,Folding cartons,direct,VERP,KS,43,500
+M100064,Folding carton 140x160x150 mm GD2 board,Folding cartons,direct,VERP,KS,5,500
+M100065,Folding carton 180x270x180 mm GC2 board,Folding cartons,direct,VERP,KS,10,1000
+M100066,Folding carton 260x80x50 mm B-flute,Folding cartons,direct,VERP,KS,34,2000
+M100067,Printed insert A5 2C 80g,Printed inserts,direct,VERP,KS,17,5000
+M100068,Printed insert A4 2C 120g,Printed inserts,direct,VERP,KS,6,2000
+M100069,Printed insert A4 1C 100g,Printed inserts,direct,VERP,KS,45,10000
+M100070,Printed insert A4 4C 120g,Printed inserts,direct,VERP,KS,40,2000
+M100071,Printed insert DL 4C 120g,Printed inserts,direct,VERP,KS,13,2000
+M100072,Printed insert A4 1C 80g,Printed inserts,direct,VERP,KS,11,5000
+M100073,Printed insert DL 1C 80g,Printed inserts,direct,VERP,KS,39,10000
+M100074,Printed insert DL 1C 120g,Printed inserts,direct,VERP,KS,39,2000
+M100075,Printed insert A5 1C 80g,Printed inserts,direct,VERP,KS,10,5000
+M100076,Printed insert A6 1C 120g,Printed inserts,direct,VERP,KS,23,2000
+M100077,Printed insert A4 1C 80g,Printed inserts,direct,VERP,KS,34,1000
+M100078,Printed insert A4 1C 100g,Printed inserts,direct,VERP,KS,5,500
+M100079,Printed insert A5 1C 100g,Printed inserts,direct,VERP,KS,8,10000
+M100080,Printed insert A5 2C 120g,Printed inserts,direct,VERP,KS,15,2000
+M100081,Printed insert A4 4C 100g,Printed inserts,direct,VERP,KS,17,10000
+M100082,Printed insert A6 2C 120g,Printed inserts,direct,VERP,KS,11,2000
+M100083,Printed insert DL 2C 80g,Printed inserts,direct,VERP,KS,9,5000
+M100084,Printed insert A5 2C 100g,Printed inserts,direct,VERP,KS,37,2000
+M100085,Printed insert A4 2C 120g,Printed inserts,direct,VERP,KS,13,20000
+M100086,Printed insert A4 1C 100g,Printed inserts,direct,VERP,KS,24,20000
+M100087,Printed insert A5 2C 100g,Printed inserts,direct,VERP,KS,33,2000
+M100088,Printed insert A5 1C 120g,Printed inserts,direct,VERP,KS,19,10000
+M100089,Printed insert A6 2C 120g,Printed inserts,direct,VERP,KS,26,200
+M100090,Printed insert DL 4C 100g,Printed inserts,direct,VERP,KS,35,2000
+M100091,Printed insert A6 4C 100g,Printed inserts,direct,VERP,KS,25,100000
+M100092,Printed insert DL 4C 80g,Printed inserts,direct,VERP,KS,8,10000
+M100093,Printed insert A6 1C 80g,Printed inserts,direct,VERP,KS,35,10000
+M100094,Printed insert DL 2C 100g,Printed inserts,direct,VERP,KS,34,5000
+M100095,Printed insert A6 2C 100g,Printed inserts,direct,VERP,KS,44,2000
+M100096,Printed insert A5 4C 120g,Printed inserts,direct,VERP,KS,10,1000
+M100097,Printed insert A5 1C 120g,Printed inserts,direct,VERP,KS,13,1000
+M100098,Printed insert A4 2C 120g,Printed inserts,direct,VERP,KS,42,10000
+M100099,Printed insert DL 4C 100g,Printed inserts,direct,VERP,KS,10,2000
+M100100,Printed insert A4 4C 120g,Printed inserts,direct,VERP,KS,6,20000
+M100101,Printed insert A5 1C 80g,Printed inserts,direct,VERP,KS,42,5000
+M100102,Printed insert A5 1C 100g,Printed inserts,direct,VERP,KS,45,200
+M100103,PE film 1800 mm 90um,PE bags & film,direct,VERP,KG,27,20
+M100104,PE film 1000 mm 80um,PE bags & film,direct,VERP,KG,41,2
+M100105,PE film 1800 mm 50um,PE bags & film,direct,VERP,KG,22,50
+M100106,PE film 1200 mm 90um,PE bags & film,direct,VERP,KG,26,100
+M100107,PE bag 420x560 mm 60um,PE bags & film,direct,VERP,KG,17,200
+M100108,PE film 900 mm 40um,PE bags & film,direct,VERP,KG,28,500
+M100109,PE film 2000 mm 90um,PE bags & film,direct,VERP,KG,41,200
+M100110,PE film 2000 mm 70um,PE bags & film,direct,VERP,KG,23,200
+M100111,PE film 1300 mm 100um,PE bags & film,direct,VERP,KG,22,10
+M100112,PE bag 510x630 mm 100um,PE bags & film,direct,VERP,KG,5,200
+M100113,PE bag 590x470 mm 100um,PE bags & film,direct,VERP,KG,18,200
+M100114,PE film 1300 mm 70um,PE bags & film,direct,VERP,KG,15,100
+M100115,PE bag 120x390 mm 100um,PE bags & film,direct,VERP,KG,43,200
+M100116,PE film 1600 mm 60um,PE bags & film,direct,VERP,KG,20,50
+M100117,PE film 500 mm 100um,PE bags & film,direct,VERP,KG,15,2000
+M100118,PE bag 450x740 mm 70um,PE bags & film,direct,VERP,KG,22,50
+M100119,PE bag 560x340 mm 80um,PE bags & film,direct,VERP,KG,9,200
+M100120,PE film 1000 mm 60um,PE bags & film,direct,VERP,KG,22,10
+M100121,PE film 700 mm 30um,PE bags & film,direct,VERP,KG,12,20
+M100122,PE bag 130x400 mm 60um,PE bags & film,direct,VERP,KG,19,1000
+M100123,PE bag 270x280 mm 70um,PE bags & film,direct,VERP,KG,44,100
+M100124,PE film 1700 mm 70um,PE bags & film,direct,VERP,KG,45,200
+M100125,PE film 1900 mm 50um,PE bags & film,direct,VERP,KG,45,200
+M100126,PE bag 110x340 mm 90um,PE bags & film,direct,VERP,KG,12,100
+M100127,PE film 1700 mm 70um,PE bags & film,direct,VERP,KG,31,1000
+M100128,PE film 1800 mm 80um,PE bags & film,direct,VERP,KG,15,100
+M100129,PE film 1500 mm 50um,PE bags & film,direct,VERP,KG,36,20
+M100130,PE bag 570x780 mm 80um,PE bags & film,direct,VERP,KG,7,100
+M100131,PE bag 230x490 mm 90um,PE bags & film,direct,VERP,KG,39,200
+M100132,PE bag 550x610 mm 60um,PE bags & film,direct,VERP,KG,25,200
+M100133,PE bag 240x220 mm 60um,PE bags & film,direct,VERP,KG,9,50
+M100134,PE film 1700 mm 60um,PE bags & film,direct,VERP,KG,26,100
+M100135,PE bag 560x460 mm 90um,PE bags & film,direct,VERP,KG,35,50
+M100136,PE bag 350x450 mm 90um,PE bags & film,direct,VERP,KG,29,100
+M100137,PE bag 140x150 mm 100um,PE bags & film,direct,VERP,KG,11,20
+M100138,PE film 1400 mm 80um,PE bags & film,direct,VERP,KG,25,100
+M100139,PE film 1700 mm 100um,PE bags & film,direct,VERP,KG,16,100
+M100140,PE bag 590x540 mm 100um,PE bags & film,direct,VERP,KG,35,200
+M100141,PE bag 150x540 mm 50um,PE bags & film,direct,VERP,KG,31,1000
+M100142,PE bag 470x370 mm 60um,PE bags & film,direct,VERP,KG,32,50
+M100143,PE film 1900 mm 40um,PE bags & film,direct,VERP,KG,14,200
+M100144,PE film 1300 mm 30um,PE bags & film,direct,VERP,KG,15,200
+M100145,Label 100x70 mm PP,Labels,direct,VERP,KS,10,2000
+M100146,Label 90x30 mm PP,Labels,direct,VERP,KS,12,20000
+M100147,Label 40x40 mm PP,Labels,direct,VERP,KS,32,5000
+M100148,Label 100x30 mm paper,Labels,direct,VERP,KS,39,20000
+M100149,Label 50x60 mm PP,Labels,direct,VERP,KS,21,2000
+M100150,Label 100x40 mm thermal,Labels,direct,VERP,KS,34,50000
+M100151,Label 150x20 mm paper,Labels,direct,VERP,KS,37,50000
+M100152,Label 40x80 mm thermal,Labels,direct,VERP,KS,31,1000
+M100153,Label 70x100 mm paper,Labels,direct,VERP,KS,12,50000
+M100154,Label 140x40 mm paper,Labels,direct,VERP,KS,19,10000
+M100155,Label 110x50 mm PP,Labels,direct,VERP,KS,26,20000
+M100156,Label 130x100 mm PP,Labels,direct,VERP,KS,23,5000
+M100157,Label 140x90 mm PP,Labels,direct,VERP,KS,9,5000
+M100158,Label 30x30 mm thermal,Labels,direct,VERP,KS,45,2000
+M100159,Label 110x50 mm PP,Labels,direct,VERP,KS,18,10000
+M100160,Label 80x20 mm PP,Labels,direct,VERP,KS,28,100000
+M100161,Label 70x50 mm PP,Labels,direct,VERP,KS,21,5000
+M100162,Label 110x20 mm PP,Labels,direct,VERP,KS,5,50000
+M100163,Label 90x80 mm PP,Labels,direct,VERP,KS,41,200000
+M100164,Label 50x60 mm PP,Labels,direct,VERP,KS,7,50000
+M100165,Label 30x60 mm paper,Labels,direct,VERP,KS,44,50000
+M100166,Label 40x40 mm paper,Labels,direct,VERP,KS,10,5000
+M100167,Label 130x100 mm paper,Labels,direct,VERP,KS,45,5000
+M100168,Label 30x50 mm paper,Labels,direct,VERP,KS,43,5000
+M100169,Label 130x90 mm thermal,Labels,direct,VERP,KS,30,1000
+M100170,Label 60x60 mm paper,Labels,direct,VERP,KS,9,50000
+M100171,Label 120x40 mm thermal,Labels,direct,VERP,KS,20,10000
+M100172,Label 130x20 mm paper,Labels,direct,VERP,KS,29,20000
+M100173,Label 120x20 mm PP,Labels,direct,VERP,KS,15,1000
+M100174,Label 80x20 mm PP,Labels,direct,VERP,KS,12,2000
+M100175,Label 100x90 mm thermal,Labels,direct,VERP,KS,18,20000
+M100176,Label 60x40 mm paper,Labels,direct,VERP,KS,6,2000
+M100177,Label 70x60 mm paper,Labels,direct,VERP,KS,25,20000
+M100178,Label 80x50 mm paper,Labels,direct,VERP,KS,19,20000
+M100179,Label 130x100 mm paper,Labels,direct,VERP,KS,11,50000
+M100180,Label 60x90 mm paper,Labels,direct,VERP,KS,20,10000
+M100181,Industrial pallet 1200x1000 repaired,Pallets,direct,VERP,KS,7,200
+M100182,Half pallet 800x600 new,Pallets,direct,VERP,KS,39,5
+M100183,Half pallet 800x600 repaired,Pallets,direct,VERP,KS,39,20
+M100184,Half pallet 800x600 new,Pallets,direct,VERP,KS,43,50
+M100185,EUR pallet 1200x800 heat-treated,Pallets,direct,VERP,KS,31,100
+M100186,Half pallet 800x600 repaired,Pallets,direct,VERP,KS,16,10
+M100187,EUR pallet 1200x800 new,Pallets,direct,VERP,KS,41,20
+M100188,Half pallet 800x600 new,Pallets,direct,VERP,KS,37,200
+M100189,Half pallet 800x600 new,Pallets,direct,VERP,KS,21,50
+M100190,Half pallet 800x600 repaired,Pallets,direct,VERP,KS,7,20
+M100191,Half pallet 800x600 new,Pallets,direct,VERP,KS,8,20
+M100192,Industrial pallet 1200x1000 repaired,Pallets,direct,VERP,KS,16,10
+M100193,Half pallet 800x600 repaired,Pallets,direct,VERP,KS,35,20
+M100194,Industrial pallet 1200x1000 repaired,Pallets,direct,VERP,KS,35,20
+M100195,EUR pallet 1200x800 heat-treated,Pallets,direct,VERP,KS,29,10
+M100196,EUR pallet 1200x800 repaired,Pallets,direct,VERP,KS,21,20
+M100197,EUR pallet 1200x800 new,Pallets,direct,VERP,KS,38,20
+M100198,Industrial pallet 1200x1000 repaired,Pallets,direct,VERP,KS,17,50
+M100199,Stretch film 450 mm 26um pre-stretch,Stretch film,direct,VERP,KG,40,5000
+M100200,Stretch film 450 mm 28um hand,Stretch film,direct,VERP,KG,36,20
+M100201,Stretch film 500 mm 29um pre-stretch,Stretch film,direct,VERP,KG,13,200
+M100202,Stretch film 500 mm 23um machine,Stretch film,direct,VERP,KG,35,50
+M100203,Stretch film 500 mm 30um machine,Stretch film,direct,VERP,KG,21,500
+M100204,Stretch film 450 mm 25um pre-stretch,Stretch film,direct,VERP,KG,44,100
+M100205,Stretch film 500 mm 28um hand,Stretch film,direct,VERP,KG,18,500
+M100206,Stretch film 500 mm 27um machine,Stretch film,direct,VERP,KG,38,200
+M100207,Stretch film 450 mm 28um pre-stretch,Stretch film,direct,VERP,KG,45,100
+M100208,Stretch film 500 mm 13um machine,Stretch film,direct,VERP,KG,30,500
+M100209,Stretch film 500 mm 17um hand,Stretch film,direct,VERP,KG,15,10
+M100210,Stretch film 450 mm 24um pre-stretch,Stretch film,direct,VERP,KG,16,1000
+M100211,Stretch film 450 mm 18um machine,Stretch film,direct,VERP,KG,37,100
+M100212,Stretch film 500 mm 23um hand,Stretch film,direct,VERP,KG,9,200
+M100213,Stretch film 500 mm 14um hand,Stretch film,direct,VERP,KG,22,20
+M100214,Stretch film 500 mm 24um hand,Stretch film,direct,VERP,KG,43,50
+M100215,Stretch film 450 mm 28um hand,Stretch film,direct,VERP,KG,32,200
+M100216,Stretch film 450 mm 14um machine,Stretch film,direct,VERP,KG,25,100
+M100217,Tape paper 50 mm x 50 m (36 rolls),Adhesive tapes,direct,VERP,BAL,5,10
+M100218,Tape paper 50 mm x 50 m (36 rolls),Adhesive tapes,direct,VERP,BAL,18,50
+M100219,Tape PP 38 mm x 66 m (36 rolls),Adhesive tapes,direct,VERP,BAL,36,2
+M100220,Tape paper 75 mm x 100 m (24 rolls),Adhesive tapes,direct,VERP,BAL,21,20
+M100221,Tape PP 48 mm x 50 m (36 rolls),Adhesive tapes,direct,VERP,BAL,15,10
+M100222,Tape PP 38 mm x 50 m (24 rolls),Adhesive tapes,direct,VERP,BAL,16,20
+M100223,Tape PP 48 mm x 100 m (36 rolls),Adhesive tapes,direct,VERP,BAL,9,2
+M100224,Tape PVC 38 mm x 50 m (6 rolls),Adhesive tapes,direct,VERP,BAL,7,10
+M100225,Tape PVC 75 mm x 50 m (6 rolls),Adhesive tapes,direct,VERP,BAL,22,1
+M100226,Tape PP 75 mm x 50 m (24 rolls),Adhesive tapes,direct,VERP,BAL,27,50
+M100227,Tape PVC 38 mm x 66 m (6 rolls),Adhesive tapes,direct,VERP,BAL,31,2
+M100228,Tape PVC 38 mm x 50 m (6 rolls),Adhesive tapes,direct,VERP,BAL,6,10
+M100229,Tape paper 38 mm x 100 m (24 rolls),Adhesive tapes,direct,VERP,BAL,12,20
+M100230,Tape paper 75 mm x 100 m (36 rolls),Adhesive tapes,direct,VERP,BAL,23,100
+M100231,Tape paper 48 mm x 50 m (36 rolls),Adhesive tapes,direct,VERP,BAL,5,10
+M100232,Tape PVC 50 mm x 66 m (6 rolls),Adhesive tapes,direct,VERP,BAL,26,5
+M100233,Tape PVC 48 mm x 50 m (24 rolls),Adhesive tapes,direct,VERP,BAL,15,10
+M100234,Tape PP 48 mm x 100 m (6 rolls),Adhesive tapes,direct,VERP,BAL,10,100
+M100235,Tape PVC 50 mm x 100 m (6 rolls),Adhesive tapes,direct,VERP,BAL,19,20
+M100236,Tape paper 50 mm x 100 m (6 rolls),Adhesive tapes,direct,VERP,BAL,39,10
+M100237,Tape paper 75 mm x 66 m (6 rolls),Adhesive tapes,direct,VERP,BAL,18,10
+M100238,Tape PP 50 mm x 50 m (6 rolls),Adhesive tapes,direct,VERP,BAL,41,2
+M100239,Tape PVC 38 mm x 50 m (6 rolls),Adhesive tapes,direct,VERP,BAL,31,20
+M100240,Tape PP 38 mm x 66 m (24 rolls),Adhesive tapes,direct,VERP,BAL,19,1
+M100241,Heat supply - Hall B,Energy,indirect,NLAG,MWH,13,1
+M100242,Electricity supply - Offices,Energy,indirect,NLAG,MWH,1,1
+M100243,Electricity supply - Hall A,Energy,indirect,NLAG,MWH,12,1
+M100244,Electricity distribution - Offices,Energy,indirect,NLAG,MWH,3,1
+M100245,Electricity supply - Plant site,Energy,indirect,NLAG,MWH,5,1
+M100246,Heat supply - Plant site,Energy,indirect,NLAG,MWH,13,1
+M100247,Electricity distribution - Hall A,Energy,indirect,NLAG,MWH,7,1
+M100248,Natural gas supply - Plant site,Energy,indirect,NLAG,MWH,12,1
+M100249,Electricity supply - Warehouse,Energy,indirect,NLAG,MWH,3,1
+M100250,HVAC maintenance - Hall A,Facility services,indirect,DIEN,SLU,9,1
+M100251,Canteen services - Hall B,Facility services,indirect,DIEN,SLU,9,1
+M100252,Waste disposal - Offices,Facility services,indirect,DIEN,SLU,11,1
+M100253,Waste disposal - Hall B,Facility services,indirect,DIEN,SLU,7,1
+M100254,Security services - Hall B,Facility services,indirect,DIEN,SLU,14,1
+M100255,Security services - Hall B,Facility services,indirect,DIEN,SLU,3,1
+M100256,Security services - Plant site,Facility services,indirect,DIEN,SLU,11,1
+M100257,HVAC maintenance - Warehouse,Facility services,indirect,DIEN,SLU,12,1
+M100258,Canteen services - Hall A,Facility services,indirect,DIEN,SLU,14,1
+M100259,Cleaning services - Hall A,Facility services,indirect,DIEN,SLU,13,1
+M100260,Cleaning services - Offices,Facility services,indirect,DIEN,SLU,14,1
+M100261,Waste disposal - Offices,Facility services,indirect,DIEN,SLU,11,1
+M100262,Waste disposal - Hall B,Facility services,indirect,DIEN,SLU,7,1
+M100263,Pest control - Hall A,Facility services,indirect,DIEN,SLU,13,1
+M100264,Security services - Hall A,Facility services,indirect,DIEN,SLU,10,1
+M100265,Security services - Hall A,Facility services,indirect,DIEN,SLU,8,1
+M100266,Pest control - Offices,Facility services,indirect,DIEN,SLU,12,1
+M100267,HVAC maintenance - Hall A,Facility services,indirect,DIEN,SLU,6,1
+M100268,Waste disposal - Warehouse,Facility services,indirect,DIEN,SLU,4,1
+M100269,Pest control - Warehouse,Facility services,indirect,DIEN,SLU,6,1
+M100270,Cleaning services - Hall A,Facility services,indirect,DIEN,SLU,13,1
+M100271,Office refurbishment - Offices,Construction,indirect,DIEN,SLU,5,1
+M100272,Sprinkler upgrade - Plant site,Construction,indirect,DIEN,SLU,8,1
+M100273,Sprinkler upgrade - Warehouse,Construction,indirect,DIEN,SLU,10,1
+M100274,Roof repair - Hall A,Construction,indirect,DIEN,SLU,9,1
+M100275,Loading dock extension - Warehouse,Construction,indirect,DIEN,SLU,2,1
+M100276,Roof repair - Hall A,Construction,indirect,DIEN,SLU,8,1
+M100277,Loading dock extension - Plant site,Construction,indirect,DIEN,SLU,14,1
+M100278,Parking lot extension - Plant site,Construction,indirect,DIEN,SLU,13,1
+M100279,Loading dock extension - Offices,Construction,indirect,DIEN,SLU,1,1
+M100280,Parking lot extension - Warehouse,Construction,indirect,DIEN,SLU,10,1
+M100281,Sprinkler upgrade - Hall A,Construction,indirect,DIEN,SLU,13,1
+M100282,Parking lot extension - Offices,Construction,indirect,DIEN,SLU,13,1
+M100283,Temporary staff,Professional svc,indirect,DIEN,HOD,3,1
+M100284,Engineering consulting,Professional svc,indirect,DIEN,HOD,10,1
+M100285,Legal services,Professional svc,indirect,DIEN,HOD,14,1
+M100286,Legal services,Professional svc,indirect,DIEN,HOD,3,1
+M100287,IT consulting,Professional svc,indirect,DIEN,HOD,10,1
+M100288,Temporary staff,Professional svc,indirect,DIEN,HOD,6,1
+M100289,Legal services,Professional svc,indirect,DIEN,HOD,8,1
+M100290,Temporary staff,Professional svc,indirect,DIEN,HOD,7,1
+M100291,Temporary staff,Professional svc,indirect,DIEN,HOD,6,1
+M100292,IT consulting,Professional svc,indirect,DIEN,HOD,11,1
+M100293,Legal services,Professional svc,indirect,DIEN,HOD,14,1
+M100294,IT consulting,Professional svc,indirect,DIEN,HOD,13,1
+M100295,Audit services,Professional svc,indirect,DIEN,HOD,8,1
+M100296,Legal services,Professional svc,indirect,DIEN,HOD,8,1
+M100297,IT consulting,Professional svc,indirect,DIEN,HOD,3,1
+M100298,Engineering consulting,Professional svc,indirect,DIEN,HOD,10,1
+M100299,Temporary staff,Professional svc,indirect,DIEN,HOD,9,1
+M100300,Audit services,Professional svc,indirect,DIEN,HOD,2,1

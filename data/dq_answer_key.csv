@@ -1,0 +1,22 @@
+issue_type,table,key,detail
+duplicate_vendor,lfa1_vendors,V10041,"duplicita k V10012 'Galdrin Print B.V.' → 'Galdirn Print B.V.', 54 objednávek od 11.08.2025"
+duplicate_vendor,lfa1_vendors,V10042,"duplicita k V10034 'Pelvado Facility s.r.o.' → 'PELVADO FACILITY SRO', 48 objednávek od 26.09.2025"
+missing_standard_price,mbew_valuation,M100055,chybí standardní cena pro rok 2026
+missing_standard_price,mbew_valuation,M100232,chybí standardní cena pro rok 2026
+missing_standard_price,mbew_valuation,M100053,chybí standardní cena pro rok 2026
+missing_standard_price,mbew_valuation,M100046,chybí standardní cena pro rok 2026
+missing_standard_price,mbew_valuation,M100132,chybí standardní cena pro rok 2026
+missing_standard_price,mbew_valuation,M100033,chybí standardní cena pro rok 2026
+uom_mismatch,ekpo_po_items,4500001425/20,"objednáno v BAL (1 BAL = 100 KS), materiál M100087 má jednotku KS"
+uom_mismatch,ekpo_po_items,4500000370/20,"objednáno v BAL (1 BAL = 100 KS), materiál M100059 má jednotku KS"
+uom_mismatch,ekpo_po_items,4500001355/10,"objednáno v BAL (1 BAL = 100 KS), materiál M100100 má jednotku KS"
+uom_mismatch,ekpo_po_items,4500001290/10,"objednáno v BAL (1 BAL = 100 KS), materiál M100001 má jednotku KS"
+uom_mismatch,ekpo_po_items,4500001875/10,"objednáno v BAL (1 BAL = 100 KS), materiál M100030 má jednotku KS"
+invoice_without_gr,invoices,4500001400/20,faktura bez vazby na příjem
+invoice_without_gr,invoices,4500001269/40,faktura bez vazby na příjem
+invoice_without_gr,invoices,4500000956/20,faktura bez vazby na příjem
+invoice_without_gr,invoices,4500001309/10,faktura bez vazby na příjem
+invoice_without_gr,invoices,4500001513/10,faktura bez vazby na příjem
+invoice_without_gr,invoices,4500002776/10,faktura bez vazby na příjem
+invoice_without_gr,invoices,4500000609/10,faktura bez vazby na příjem
+invoice_without_gr,invoices,4500001561/10,faktura bez vazby na příjem

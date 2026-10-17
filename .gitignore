@@ -1,0 +1,7 @@
+# Power BI file – published when the dashboard is finished
+*.pbix
+
+# Python
+__pycache__/
+*.pyc
+.venv/

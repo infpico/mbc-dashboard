@@ -1,0 +1,143 @@
+# =============================================================================
+# NordPack Manufacturing s.r.o. – konfigurace generátoru syntetických dat
+# Všechna data jsou vymyšlená. Změnou čísel zde měníš "příběh" v datech,
+# aniž bys sahal do kódu (generate_data.py).
+# =============================================================================
+
+# Pevný seed = při každém spuštění vzniknou úplně stejná data (reprodukovatelnost).
+seed: 42
+
+company:
+  name: NordPack Manufacturing s.r.o.
+  plant: CZ01            # kód závodu (SAP: WERKS)
+  local_currency: CZK
+
+period:
+  start: 2024-09-01
+  end: 2026-09-30        # 25 měsíců
+
+counts:
+  vendors: 40
+  materials: 300
+  # Počet položek objednávek se NEnastavuje – vychází z EOQ logiky (spotřeba / dávka),
+  # aktuálně ~4 100 položek za 25 měsíců.
+  items_per_po: [1, 5]   # počet položek na jednu objednávku (min, max)
+
+# Nákupčí (fiktivní) – SAP: EKGRP = nákupní skupina
+buyers: [B01-Novak, B02-Svobodova, B03-Dvorak, B04-Kralova]
+
+# Podíl dodavatelů podle měny
+vendor_currency_share: {CZK: 0.60, EUR: 0.30, PLN: 0.10}
+vendor_countries: {CZK: [CZ], EUR: [DE, AT, SK, NL], PLN: [PL]}
+payment_terms: [Z030, Z045, Z060]     # splatnost 30/45/60 dní
+
+# -----------------------------------------------------------------------------
+# Kategorie: podíl materiálů, měrná jednotka, přímý/nepřímý nákup,
+# rozsah základní ceny za jednotku v CZK, roční cenový trend.
+# direct = materiál do výroby; indirect = energie, služby, projekty
+# -----------------------------------------------------------------------------
+categories:
+  Folding cartons:   {share: 0.22, uom: KS,  type: direct,   price: [4, 40],         trend: carton}
+  Printed inserts:   {share: 0.12, uom: KS,  type: direct,   price: [0.5, 5],        trend: 0.02}
+  PE bags & film:    {share: 0.14, uom: KG,  type: direct,   price: [45, 90],        trend: 0.01}
+  Labels:            {share: 0.12, uom: KS,  type: direct,   price: [0.1, 1.5],      trend: 0.02}
+  Pallets:           {share: 0.06, uom: KS,  type: direct,   price: [180, 450],      trend: 0.03}
+  Stretch film:      {share: 0.06, uom: KG,  type: direct,   price: [50, 80],        trend: 0.01}
+  Adhesive tapes:    {share: 0.08, uom: BAL, type: direct,   price: [300, 1200],     trend: 0.02}
+  Energy:            {share: 0.03, uom: MWH, type: indirect, price: [2500, 4500],    trend: -0.05}
+  Facility services: {share: 0.07, uom: SLU, type: indirect, price: [5000, 60000],   trend: 0.04}
+  Construction:      {share: 0.04, uom: SLU, type: indirect, price: [50000, 900000], trend: 0.05}
+  Professional svc:  {share: 0.06, uom: HOD, type: indirect, price: [900, 2500],     trend: 0.04}
+
+# Roční objem nákupu (spend) – podle něj se dopočítá roční spotřeba materiálů
+annual_spend_czk: 250000000
+direct_spend_share: 0.80         # 80 % přímý materiál, 20 % nepřímý nákup
+
+# Cenový index kartonu (simulace indexu vlnité lepenky).
+# Hodnota = úroveň indexu na konci roku, mezi tím roste lineárně po měsících.
+carton_price_index:
+  2024: 1.00
+  2025: 1.09             # +9 % během 2025 → kladné PPV u kartonů
+  2026: 1.15             # další růst
+
+# Náhodný šum ceny v objednávce kolem "tržní" ceny (± v %)
+po_price_noise: 0.03
+
+# Standardní cena (MBEW): 1× ročně v lednu = průměrná nákupní cena minulého roku
+# × (1 + náhodná odchylka). První rok (2024) = základní cena.
+standard_price:
+  set_month: 1
+  noise: 0.02
+
+# -----------------------------------------------------------------------------
+# Kurzy (TCURR) – měsíční, počáteční hodnota + náhodné kolísání
+# -----------------------------------------------------------------------------
+# Plánovací kurz (plan rate) na rok = průměr skutečných kurzů minulého roku.
+# Rozdíl skutečný vs. plánovací kurz = kurzový efekt v PPV.
+fx:
+  history_start: 2024-01-01     # kurzy generujeme od ledna 2024 (kvůli plánovacímu kurzu 2025)
+  EUR: {start: 25.10, monthly_volatility: 0.012}
+  PLN: {start: 5.85,  monthly_volatility: 0.015}
+
+# Sezónnost objednávek (násobek průměru) – špička Q3–Q4 před Vánoci
+seasonality: {1: 0.80, 2: 0.80, 3: 0.90, 4: 0.90, 5: 0.95, 6: 1.00,
+              7: 1.00, 8: 1.15, 9: 1.25, 10: 1.30, 11: 1.20, 12: 0.75}
+
+# -----------------------------------------------------------------------------
+# Dodávky (příjmy, pohyb 101) a OTIF
+# -----------------------------------------------------------------------------
+delivery:
+  lead_time_days: [5, 45]        # rozsah lead time v kmenových datech materiálu
+  lead_time_days_indirect: [1, 14]  # služby, energie, projekty
+  on_time_rate: 0.95             # běžní dodavatelé
+  late_days: [2, 12]             # o kolik dní je pozdní dodávka pozdě
+  partial_delivery_rate: 0.04    # dodávka ne "in full" (přijde 70–95 %)
+  partial_share: [0.70, 0.95]
+
+# Velký dodavatel kartonů s horším OTIF (zpoždění 15–20 % dodávek)
+late_vendor:
+  category: Folding cartons
+  on_time_rate: 0.82
+  late_days: [3, 15]
+
+# -----------------------------------------------------------------------------
+# Faktury (MIRO) – IPV = Invoice Price Variance (faktura vs. objednávka)
+# -----------------------------------------------------------------------------
+invoices:
+  invoice_delay_days: [3, 20]    # faktura přijde X dní po příjmu
+  tolerance: 0.02                # odchylka nad 2 % → faktura blokovaná k platbě (SAP blok "R")
+  price_deviation_rate: 0.10     # ~10 % faktur má jinou cenu než objednávka
+  price_deviation: [-0.03, 0.05] # rozsah odchylky (častěji dodavatel účtuje víc)
+
+# -----------------------------------------------------------------------------
+# Zásoby a spotřeba
+# -----------------------------------------------------------------------------
+stock:
+  target_coverage_days: 30       # cílové pokrytí zásob
+  slow_mover_share: 0.10         # 10 % materiálů bez pohybu 180+ dní (ležáky)
+  slow_mover_stop_before_end_days: [200, 400]  # kdy přestala spotřeba
+  overstock_materials: 12        # materiály s nadměrnou zásobou (pokrytí 120+ dní)
+
+# -----------------------------------------------------------------------------
+# Velikost dávky / EOQ
+# EOQ = sqrt(2 * D * S / H); D = roční spotřeba, S = náklad na objednávku,
+# H = roční náklad držení = cena × holding_rate
+# -----------------------------------------------------------------------------
+batch:
+  ordering_cost_czk: 1500        # S – náklad na jednu objednávku (práce, doprava, příjem)
+  holding_rate: 0.20             # 20 % hodnoty zásoby ročně (kapitál, sklad, riziko)
+  over_eoq_share: 0.15           # 15 % materiálů objednáváme ve velkých dávkách (2–3× EOQ)
+  under_eoq_share: 0.10          # 10 % v malých dávkách (0,3–0,5× EOQ)
+
+# -----------------------------------------------------------------------------
+# Záměrné chyby v datech (téma data governance)
+# -----------------------------------------------------------------------------
+data_quality:
+  duplicate_vendors: 2           # stejný dodavatel 2× s překlepem v názvu
+  missing_standard_price: 6      # materiály bez standardní ceny v MBEW
+  uom_mismatch: 5                # položky objednávky v BAL místo KS
+  invoices_without_gr: 8         # faktura bez příjmu (selže 3-way match)
+
+output:
+  csv_dir: data/csv
+  sqlite_path: data/nordpack.db
