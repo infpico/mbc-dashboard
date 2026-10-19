@@ -1,5 +1,5 @@
-# Power BI file – published when the dashboard is finished
-*.pbix
+# Power BI working copies (the published file is powerbi/MBC_Procurement.pbix)
+/*.pbix
 
 # Python
 __pycache__/
