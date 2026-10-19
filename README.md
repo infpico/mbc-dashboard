@@ -13,6 +13,8 @@ The dashboard answers three questions:
 
 ![Overview dashboard](screenshots/mbc_1.png)
 
+📄 [View the dashboard as PDF](powerbi/MBC_Procurement.pdf) · 📈 [Download the .pbix](powerbi/MBC_Procurement.pbix)
+
 ## Key findings
 - **PPV of CZK 12.7 M (3.3 %)** – about 60 % comes from folding cartons, following the corrugated board price index.
 - **Unfavourable FX effect of CZK 3.5 M** – the koruna strengthened against the euro, but the zloty appreciated ~11 % and the largest carton supplier is Polish.
@@ -47,7 +49,7 @@ price, unit-of-measure mismatch, invoice without goods receipt) and detected by 
 |---|---|
 | `generator/` | Python generator of the reproducible dataset (fixed seed) + SQL pattern checks |
 | `data/` | Generated tables as CSV (Power BI source) and SQLite (`mbc.db`) |
-| `powerbi/` | `MBC_Procurement.pbix` – the dashboard (open in Power BI Desktop) |
+| `powerbi/` | `MBC_Procurement.pbix` – the dashboard (Power BI Desktop), `MBC_Procurement.pdf` – PDF export |
 | `docs/` | Data dictionary – tables, columns, SAP equivalents, known data quality issues |
 | `screenshots/`, `assets/` | Images and logo |
 
